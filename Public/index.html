@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Twitter - Conectate con los demás</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/twitter.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="row container_inicio">
+            <div class="col-md-6 first_column">
+                <img src="images/twitter.png" class="img-fluid img-twitter" alt="Mini Twitter"/>
+                <br>
+                <h1 class="title">Mini Twitter</h1>
+                <br>
+                <h6 style="font-weight: 1000;">Enerate de lo que a las personas le interesan</h6>
+                <br>
+                <h6 style="font-weight: 1000;">Unete a la Conversación</h6>
+            </div>
+            <div class="col-md-6 second_column">
+                <h4>Listo para Conectarte ?</h4>
+                <div class="card card_inicio">
+                    <div class="card-body body_card_inicio">
+                        <h5>Iniciar Sesión</h5>
+                        <h6>con tu red social</h6>
+                        <div class="container login">
+                            <div class="row">
+                                <div class="col-md">
+                                    <a>
+                                        <img src="images/google_icon.png"/>
+                                        Google
+                                    </a>
+                                </div>
+                                <div class="col-md">
+                                    <a>
+                                        <img src="images/facebook.png"/>
+                                        Facebook
+                                    </a>
+                                </div>
+                                <div class="col-md">
+                                    <a>
+                                        <img src="images/twitter_icon.png"/>
+                                        Twitter
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="separator">
+                                <span>o</span>
+                            </p>
+                            <form class="form_inicio">
+                                <div class="form-group">
+                                    <label for="email_login">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email_login" aria-describedby="emailHelp">
+                                    <small id="error_email" class="form-text text-muted"></small>
+                                  </div>
+                                  <br>
+                                  <div class="form-group">
+                                    <label for="pass_login">Contraseña</label>
+                                    <input type="password" class="form-control" id="pass_login" autocomplete="additional-name">
+                                    <small id="error_pass" class="form-text text-muted"></small>
+
+                                </div>
+                                  <br>
+                                  <button  type="button" class="btn btn-primary btn_login">Iniciar Sesión</button>
+                            </form>
+                            <div class="final_links row">
+                                <div class="col">
+                                    <a class="ir_registro">Aun no eres miembro? Regístrate</a>
+                                </div>
+                                <div class="col">
+                                    <a class="ir_contraseña">No recuerdo mi contraseña</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="imagen_fondo"></div>
+        </section>
+       
+
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
